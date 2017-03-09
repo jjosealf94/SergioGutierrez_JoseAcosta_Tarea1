@@ -28,7 +28,7 @@ tiempo=[t1,t2,t3]
 num=[1,2,4]
 plt.scatter(num,tiempo)
 plt.title("Tiempos de ejecucion por numero de procesadores ")
-plt.grid()
+plt.grid(True)
 plt.ylabel("Tiempo(s)")
 plt.xlabel("Numero de procesadores")
 plt.savefig("Tiempo.png",format='png');
